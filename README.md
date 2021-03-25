@@ -44,8 +44,8 @@ if it doesn't it's still nice about it
 
 ```python
 class NoRepr:
-	def __repr__(self):
-		raise Exception('You cant represent me!')
+    def __repr__(self):
+        raise Exception('You cant represent me!')
 
 >>> print(NoRepr())
 IF I CANT YELL IT THEN I WONT PRINT IT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
