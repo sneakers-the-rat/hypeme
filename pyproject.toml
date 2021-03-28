@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "hypeme"
-version = "0.1.0"
+version = "0.1.2"
 description = "hype yourself up!"
 authors = ["sneakers-the-rat"]
 license = "Unlicense"
+readme = "README.md"
+homepage = "https://github.com/sneakers-the-rat/hypeme/"
+repository = "https://github.com/sneakers-the-rat/hypeme/"
 
 [tool.poetry.dependencies]
 python = ">=3.3"
