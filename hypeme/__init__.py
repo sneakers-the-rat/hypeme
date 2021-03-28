@@ -55,7 +55,7 @@ def _hype(printme, *args, **kwargs):
 
     # if just printing a newline, like ipython does for some reason,
     # just do it
-    if printme in ESCAPE_CHARS:
+    if isinstance(printme, str) and printme in ESCAPE_CHARS:
         builtins.ye_olde_print(printme, *args, **kwargs)
         return
 
